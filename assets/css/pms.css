@@ -1,0 +1,29 @@
+.nav-tabs-bordered .nav-link.active {
+    background-color: #fff;
+    color: #4154f1;
+    border: none;
+    border-bottom: 2px solid #4154f1;
+    font-weight:600;
+}
+.pdf {
+  width:45px;
+  height:52px;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+}
+
+.container:hover .pdf {
+  transform: scale(1.4);
+}
+tr:hover {
+  background-color:#ECEDFF;
+}
+td {
+  text-overflow: ellipsis;
+  max-height: 50px;
+}
+th {
+  text-align: center;
+}
